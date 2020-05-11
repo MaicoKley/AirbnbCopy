@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(224, 223, 223);
+}
+
+header {
+    display: flex;    
+    max-width: 1200px;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+
+input[type=date] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+.menu {  
+    display: flex;    
+    flex-direction: column; 
+    width: 200px;     
+}
+
+.menu a {
+    height: 34px;
+    background-color: honeydew;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-weight: bold;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-decoration: unset;
+    color: black;
+    transition: filter 0.4s;
+}
+
+.menu a:hover {
+    filter: brightness(40%);    
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
+}
+
+.card {
+    display: flex;
+    width: 1200px;    
+    background: honeydew;
+    border-radius: 5px;
+    margin: 5px;    
+}
+
+.card img {
+    margin: 10px;  
+    height: 180px;
+    width: 300px;
+}
+
+.card h4,p {
+    margin: 10px 10px 10px 10px ;
+}
+
+.cardInfo {
+    display: flex;    
+    flex-direction: column; 
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cardInfo p {    
+    text-align: right;
+    text-align: end;
+}
+
+#pagination {
+    display: flex;    
+    max-width: 400px;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+
+.pagination {
+    height: 34px;
+    width: 50px;
+    background-color: honeydew;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-weight: bold;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-decoration: unset;
+    color: black;
+    transition: filter 0.4s;
+}
+
+.pagination:hover {
+    filter: brightness(40%);    
+}
